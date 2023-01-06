@@ -160,6 +160,15 @@ li:before {
 
 
 
-
+/* academic record portfolio with a table  */
+.academic-record{
+    border-radius: 25px;
+}
+table, th, tr, td{
+    border: 1px solid #203cb9;
+    border-radius: 15px;
+    text-decoration: solid;
+    
+}
 
 /* always keep position and hand pic section */
