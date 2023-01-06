@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    font-family: sans-serif, 'Courier New', Courier, monospace
+}
+
+
+
+/* First section: material heading, para., button also bg */
+.first-section {
+    background: url('../images/banner/banner2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1600px;
+    width: 100%;
+}
+
+.heading-first-section {
+    color: #151414;
+    text-align: right;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    padding: 416px 230px 24px 885px;
+}
+
+.para-first-section {
+    text-align: right;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 0px;
+    margin-bottom: 32px;
+    margin-right: 230px;
+
+}
+
+.btn-primary {
+    background-color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 36px;
+    height: 64px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-left: 1500px;
+
+}
+
+
+
+
+
+/* second section a person and previous year story */
+.second-section {
+    margin: 130px 322px 50px 422px;
+    display: flex;
+    max-height: 1063px;
+    padding-top: 150px;
+}
+
+.failure-text {
+    padding-top: 182px;
+    padding-left: 67px;
+}
+
+.failure-heading {
+    color: #6d2a2a;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.failure-para {
+    color: #444343;
+    font-size: 22px;
+    line-height: 26px;
+    padding-top: 16px;
+    text-align: left;
+}
+
+.second-section li {
+    font-size: 16px;
+    line-height: 26px;
+    list-style: none;
+    color: #444343;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    margin-left: 0px;
+
+}
+
+li:before {
+    content: '✓';
+    color: green;
+}
+
+
+
+/* My plans section */
+.my-plans {
+    margin: 204px 230px 104px 230px;
+
+    height: inherit;
+    background-size: 100% 100%;
+
+}
+
+.my-plans-heading {
+    text-align: center;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-bottom: 17px;
+}
+
+.all-div {
+    display: flex;
+    padding-left: 200px;
+
+}
+
+.my-plans-divone {
+    padding: 4px 20px 0 30px;
+}
+
+.my-plans-divtwo {
+    padding: 4px 20px 0 30px;
+}
+
+.my-plans-divthree {
+    padding: 4px 20px 0 30px;
+}
+
+.my-plans-divfour {
+    padding: 4px 20px 0 30px;
+}
+
+
+
+.plans-heading-name {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    padding: ;
+}
+
+.plans-heading {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+}
+
+
+
+
+
+/* always keep position and hand pic section */
