@@ -227,6 +227,7 @@ tbody {
     background-repeat: no-repeat;
     margin: 3%;
     position: relative;
+    opacity: .8;
 }
 
 /* for color overlay */
