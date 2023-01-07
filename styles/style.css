@@ -8,7 +8,7 @@
 
 /* First section: material heading, para., button also bg */
 .first-section {
-    background: url('../images/banner/banner2.png');
+    background: url('/images/banner/banner2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
