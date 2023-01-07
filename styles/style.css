@@ -11,7 +11,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 1600px;
+    height: 890px;
     width: 100%;
 }
 
@@ -21,7 +21,7 @@
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
-    padding: 416px 230px 24px 885px;
+    padding: 246px 230px 24px 885px;
 }
 
 .para-first-section {
@@ -161,14 +161,51 @@ li:before {
 
 
 /* academic record portfolio with a table  */
-.academic-record{
-    border-radius: 25px;
+.academicqual{
+    display: flex;
+    height: 600px;
+    margin: 30px 290px;
+    padding-left: 180px;  
+
 }
-table, th, tr, td{
-    border: 1px solid #203cb9;
+.academic-record{
+    padding: 20px 50px 15px 20;
+}
+.academic-heading{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 50px 5px 15px;
+}
+.academicdiv{
+    padding-right: 30px;
+    padding-top: 30px;
+}
+table{
+    border: 6px solid #5baf2b;
     border-radius: 15px;
     text-decoration: solid;
-    
+    font-size: 23px;
+
+}
+ th, tr, td{
+    border: 1px solid #36b816;
+    border-collapse:collapse;
+    border-radius: 4px;
+    background-color: rgba(179, 255, 255, 0.63);
+}
+tbody{
+    border-collapse:collapse;
 }
 
+
+
 /* always keep position and hand pic section */
+.always-positive{
+    margin: 50px 230px 130px;
+    border-radius: 8px;
+    padding-right: 230px;
+    padding-left: 299px;
+    background-image: url('/images/gradient2.png');
+    background-image: ;
+    background-repeat: no-repeat;
+}
