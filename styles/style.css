@@ -161,77 +161,116 @@ li:before {
 
 
 /* academic record portfolio with a table  */
-.academicqual{
+.academicqual {
     display: flex;
     height: 400px;
     margin: 30px 290px;
     /* padding-left: 180px; */
-    justify-content: center;  
+    justify-content: center;
     padding-bottom: 100px;
 
 }
-.academic-record{
+
+.academic-record {
     padding: 20px 50px 15px 20;
 }
-.academic-heading{
+
+.academic-heading {
     text-align: center;
     font-size: 30px;
     padding: 30px 50px 5px 15px;
 }
-.academicdiv{
+
+.academicdiv {
     padding-right: 30px;
     padding-top: 30px;
 }
-table{
+
+table {
     border: 6px solid #5baf2b;
     border-radius: 15px;
     text-decoration: solid;
     font-size: 23px;
 
 }
- th, tr, td{
+
+th,
+tr,
+td {
     border: 1px solid #36b816;
-    border-collapse:collapse;
+    border-collapse: collapse;
     border-radius: 4px;
     background-color: rgba(179, 255, 255, 0.63);
 }
-tbody{
-    border-collapse:collapse;
+
+tbody {
+    border-collapse: collapse;
 }
 
 
 
 /* always keep position and hand pic section */
-.always-positive{
+.positive-div-for-position {
+    padding-left: 280px;
+    max-height: 300px;
+    padding-bottom: 100px;
+}
+
+
+.always-positive {
     background-image: url('/images/watch.png');
     background-repeat: no-repeat;
     margin: 3%;
     position: relative;
+    opacity: .7;
 }
-.positive-heading{
+
+/* for color overlay */
+
+
+.positive-heading {
+
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
     position: absolute;
-    top: 85px;
-    left: 40px;
-}
-.button{
-    color: #444343;
+    top: 57px;
+    left: 60px;
+
 }
 
+.button {
+    background: #ff0909;
+    border-radius: 7px;
+    text-align: center;
+    position: absolute;
+    top: 160px;
+    left: 60px;
+
+
+
+}
+
+.for-call {
+    color: #f1eaea;
+    font-weight: 600;
+    font-size: 35px;
+    max-height: 65px;
+    max-width: 160px;
+}
 
 
 
 
 
 
-/* 
-footer part */
-/* .footer-div{
-    background-color: #151414;
+
+
+/* footer part */ 
+.footer-div{
+    background-color: #000000;
     max-height: 570px;
     width: 100%;
 
 
-} */
-
-
-
+} 
