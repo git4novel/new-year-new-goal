@@ -163,9 +163,11 @@ li:before {
 /* academic record portfolio with a table  */
 .academicqual{
     display: flex;
-    height: 600px;
+    height: 400px;
     margin: 30px 290px;
-    padding-left: 180px;  
+    /* padding-left: 180px; */
+    justify-content: center;  
+    padding-bottom: 100px;
 
 }
 .academic-record{
@@ -201,11 +203,35 @@ tbody{
 
 /* always keep position and hand pic section */
 .always-positive{
-    margin: 50px 230px 130px;
-    border-radius: 8px;
-    padding-right: 230px;
-    padding-left: 299px;
-    background-image: url('/images/gradient2.png');
-    background-image: ;
+    background-image: url('/images/watch.png');
     background-repeat: no-repeat;
+    margin: 3%;
+    position: relative;
 }
+.positive-heading{
+    position: absolute;
+    top: 85px;
+    left: 40px;
+}
+.button{
+    color: #444343;
+}
+
+
+
+
+
+
+
+/* 
+footer part */
+/* .footer-div{
+    background-color: #151414;
+    max-height: 570px;
+    width: 100%;
+
+
+} */
+
+
+
