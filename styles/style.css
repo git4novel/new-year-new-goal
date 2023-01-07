@@ -221,13 +221,12 @@ tbody {
     padding-left: 120px;
 }
 
-
 .always-positive {
-    background-image: url('./images/watch.png');
+
+    background: url(.././images/watch.png);
     background-repeat: no-repeat;
-    /* margin: 3%; */
+    margin: 3%;
     position: relative;
-    opacity: .7;
 }
 
 /* for color overlay */
