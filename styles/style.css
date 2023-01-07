@@ -223,7 +223,7 @@ tbody {
 
 
 .always-positive {
-    background-image: url('/images/watch.png');
+    background-image: url('./images/watch.png');
     background-repeat: no-repeat;
     /* margin: 3%; */
     position: relative;
