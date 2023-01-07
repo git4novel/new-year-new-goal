@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     font-family: sans-serif, 'Courier New', Courier, monospace
 }
 
@@ -13,6 +14,7 @@
     background-size: 100% 100%;
     height: 890px;
     width: 100%;
+    
 }
 
 .heading-first-section {
@@ -54,10 +56,12 @@
 
 /* second section a person and previous year story */
 .second-section {
+
     margin: 130px 322px 50px 422px;
     display: flex;
     max-height: 1063px;
     padding-top: 150px;
+    align-items: center;
 }
 
 .failure-text {
@@ -211,16 +215,17 @@ tbody {
 
 /* always keep position and hand pic section */
 .positive-div-for-position {
-    padding-left: 280px;
+    margin: 130px 230px;
     max-height: 300px;
     padding-bottom: 100px;
+    padding-left: 120px;
 }
 
 
 .always-positive {
     background-image: url('/images/watch.png');
     background-repeat: no-repeat;
-    margin: 3%;
+    /* margin: 3%; */
     position: relative;
     opacity: .7;
 }
@@ -266,11 +271,85 @@ tbody {
 
 
 
-/* footer part */ 
-.footer-div{
-    background-color: #000000;
-    max-height: 570px;
+/* footer part */
+.last-div {
+    background-color: black;
+    height: 100%;
     width: 100%;
+    height: 700px;
 
 
-} 
+
+}
+
+.for-flex {
+    display: flex;
+}
+
+.future {
+    margin-top: 120px;
+    margin-left: 250px;
+    max-height: 320px;
+   max-width: 485px;
+}
+
+.future-heading {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+
+}
+.future-paraone{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 500;
+    width: 350px;
+}
+
+.future-para {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 7px 30px 3px 0px;
+}
+
+.icon-three {
+    display: flex;
+    padding-top: 6px;
+}
+
+
+
+/* div two subscribe site */
+
+.subscribe{
+    margin: 126px 230px 240px 490px;
+    padding-right: 200px;
+}
+
+.sub-heading {
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    font-size: 40px;
+}
+.button-sub{
+    height: 40px;
+    width: 150px;
+    font-weight: 500;
+    font-size: 25px;
+    flood-color: white;
+    margin-top: 12px;
+    border-radius: 8px;
+    background: #005FAC;
+}
+input{
+    height: 40px;
+    width: 350px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 20px;
+}
+.for-color-sub{
+    color: white;
+}
